@@ -14,8 +14,8 @@ import {
    
   export default function DefaultSpeedDial() {
     return (
-      <div className="relative h-80 w-full">
-        <div className="absolute bottom-0 right-0">
+      <div className="relative h-60 w-full">
+        <div className="absolute bottom-0 right-0 z-index-999">
           <SpeedDial>
             <SpeedDialHandler>
               <IconButton size="lg" className="rounded-full">
